@@ -47,7 +47,7 @@ Run the following command:
 
 `terraform destroy`
 
-Review the plan and type yes to confirm.
+Review the plan and type `yes` to confirm.
 
 ## Notes
 Ensure your AWS credentials have the necessary permissions to manage ECS and ECR resources.
