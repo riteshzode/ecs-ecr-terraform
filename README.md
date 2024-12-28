@@ -7,9 +7,11 @@ This project sets up an ECS (Elastic Container Service) cluster and an ECR (Elas
 Before you begin, ensure you have the following installed:
 
 - AWS CLI
+  use aws configure to connect the user
 
 - Terraform
-
+  terraform --version
+  
 ## Usage Instructions
 
 Clone this repository to your local machine:
