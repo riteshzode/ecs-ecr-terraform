@@ -34,10 +34,11 @@ Review the plan and type yes to confirm.
 Check ECS Cluster:
 
 - aws ecs list-clusters
-Check ECR Repository:
 
+Check ECR Repository:
 - aws ecr describe-repositories
-Destroy the Resources
+
+## Destroy the Resources
 To clean up the resources created by Terraform:
 
 Run the following command:
