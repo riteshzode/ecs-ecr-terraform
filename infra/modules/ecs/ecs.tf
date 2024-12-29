@@ -23,6 +23,7 @@ resource "aws_ecs_task_definition" "demo_app_task" {
     {
       "name": "${var.demo_app_task_name}",
       "image": "public.ecr.aws/g9l5u9y4/nginx-sample:latest",
+    /*"image": "${var.ecr_repo_url}", */
       "essential": true,
       "portMappings": [
         {
